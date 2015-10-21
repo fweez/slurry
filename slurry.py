@@ -42,7 +42,7 @@ def hi(message):
 def hey(message, contents=None):
     if contents:
         idea = random.choice(good_ideas)
-        first_word = contents.split()[0]
+        first_word = contents.split()[0].lower()
         if first_word in question_words:
             message.reply('We can talk about that after you {}.'.format(idea))
         else:
