@@ -24,6 +24,7 @@ good_ideas = [
     'take off your shoes',
     'check with your therapist',
 ]
+message_words = ['tell', 'call', 'text', 'message', 'send']
 
 @listen_to('HI SLURRY', re.IGNORECASE)
 def hi(message):
@@ -45,6 +46,8 @@ def hey(message, contents=None):
         first_word = contents.split()[0].lower()
         if first_word in question_words:
             message.reply('We can talk about that after you {}.'.format(idea))
+        elif first_word in message_words:
+            message.reply("I'm not sure sending that right now is a good idea.")
         else:
             message.reply('''I'm researching "{}". Meanwhile maybe you should {}?'''.format(contents, idea))
     else:
