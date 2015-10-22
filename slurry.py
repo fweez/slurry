@@ -49,7 +49,7 @@ def hey(message, contents=None):
         elif first_word in message_words:
             message.reply("I'm not sure sending that right now is a good idea.")
         else:
-            message.reply('''I'm researching "{}". Meanwhile maybe you should {}?'''.format(contents, idea))
+            message.reply(unicode('''I'm researching "{}". Meanwhile maybe you should {}?''').format(unicode(contents, errors='replace'), idea))
     else:
         message.reply("Again, I see you there. You don't need to keep yelling at me.")
 
