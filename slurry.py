@@ -26,7 +26,7 @@ good_ideas = [
     'stop yelling, our neighbors can hear you',
     'have a slice of pizza',
     'drink a big glass of water',
-    'think about what you just said'
+    'think about what you just said',
     'go to the porch and talk to the smokers in a quiet voice',
 ]
 message_words = ['tell', 'call', 'text', 'message', 'send']
