@@ -20,9 +20,14 @@ good_ideas = [
     'eat a taco',
     'count to one thousand by sevens',
     'let the room stop spinning',
-    'call your mother',
     'take off your shoes',
     'check with your therapist',
+    'chill the fuck out',
+    'stop yelling, our neighbors can hear you',
+    'have a slice of pizza',
+    'drink a big glass of water',
+    'think about what you just said'
+    'go to the porch and talk to the smokers in a quiet voice',
 ]
 message_words = ['tell', 'call', 'text', 'message', 'send']
 
